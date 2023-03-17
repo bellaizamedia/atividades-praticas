@@ -1,4 +1,4 @@
-<h2>Atividades práticas<h2>
+<h2>Atividades práticas</h2>
 <p> Olá! Prazer, me chamo Izabella Oliveira. Dentro deste repositório você encotrará todas minhas atividades práticas feitas no ITB e todas as minhas atividades práticas realizadas na escola de tecnologia Alura. Cada sigla é o nome de uma matéria:
 
 - DSA2: Desenvolvimento de Sistemas e Aplicações 2;
