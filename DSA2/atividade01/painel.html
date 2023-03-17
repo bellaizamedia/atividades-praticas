@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Disciplinas</title>
+
+    <!--CSS interno da página-->
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+        *{
+    margin: 0;
+    padding: 0;
+    }
+   body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+    }
+    .cabecalho{
+    padding: 2% 0% 0% 15%;
+    }
+    .cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    }
+    .cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+    }
+    .apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    }
+   .apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    }
+    .titulo-destaque{
+    color: #22D4FD;
+    }
+    #table {
+    border-collapse: collapse;
+    width: 130%;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    }
+    #thead, #tbody {
+    padding: 8px; 
+    text-align: left; 
+    border-bottom: 1px solid #ddd;
+    }
+    #thead {
+    background-color: #22D4FD; /* Define a cor de fundo das células de cabeçalho */
+    color: #000000; /* Define a cor do texto das células de cabeçalho */
+    }
+    .rodape{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    bottom: 0;   
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    }
+    </style>
+</head>
+
+
+<!--Corpo da página-->
+<body>
+    <!--Cabeçalho da página-->
+    <header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="logon.html">Logon</a>
+            </nav>
+        </header>
+    </header>
+
+
+    <!--Main/Conteúdo principal-->
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Lista de disciplinas</h1>
+
+            <table border="1" id="table">
+                <thead id="thead">
+                    <tr>
+                        <th>Sigla</th>
+                        <th>Professores</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <td>DS2</td>
+                        <td>Marianne</td>
+                    </tr>
+                    <tr>
+                        <td>EMPR2</td>
+                        <td>Nunes</td>
+                    </tr>
+                    <tr>
+                        <td>LIP1</td>
+                        <td>Rogério</td>
+                    </tr>
+                    <tr>
+                        <td>LPAP</td>
+                        <td>Adriano</td>
+                    </tr>
+                    <tr>
+                        <td>PBD1</td>
+                        <td>Cruz</td>
+                    </tr>
+                    <tr>
+                        <td>PRAG</td>
+                        <td>Silvia</td>
+                    </tr>
+                    <tr>
+                        <td>PRIT</td>
+                        <td>Nunes</td>
+                    </tr>
+                    <tr>
+                        <td>PRTX</td>
+                        <td>Joelma</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+              <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Sair</a>
+            </nav>
+
+            </section>
+    </main>
+
+
+    <!--Rodapé/Fim da página-->
+    <footer class="rodape">
+        <p>Desenvolvido por Izabella Oliveira.</p>
+    </footer>
+</body>
+</html>
